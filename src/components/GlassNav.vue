@@ -14,16 +14,16 @@ const setNavItem = (index: number, el: HTMLElement | null) => {
 
 const links = [
   { key: 'home', label: 'Home', to: '/' },
-  { key: 'projects', label: 'Projects', to: '/projects' },
-  { key: 'about', label: 'About', to: '/about' },
+  { key: 'work', label: 'Work', to: '/work' },
+  { key: 'career', label: 'Career', to: '/career' },
   { key: 'contact', label: 'Contact', to: '/contact' },
 ]
 
 const setActiveFromRoute = () => {
   const path = route.path
   if (path === '/') active.value = 'home'
-  else if (path.includes('projects')) active.value = 'projects'
-  else if (path.includes('about')) active.value = 'about'
+  else if (path.includes('work')) active.value = 'work'
+  else if (path.includes('career')) active.value = 'career'
   else if (path.includes('contact')) active.value = 'contact'
   else active.value = 'home'
 }

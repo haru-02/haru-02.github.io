@@ -15,6 +15,7 @@ body,
 #app {
   height: 100%;
   margin: 0;
+  overflow-x: hidden;
 }
 
 .app-bg {

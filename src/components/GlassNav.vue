@@ -84,6 +84,7 @@ const pillStyle = computed(() => ({
   border-radius: 1rem;
   padding: 0.8rem 1.5rem;
   box-shadow: 0 4px 25px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
 }
 
 .glass-nav ul {

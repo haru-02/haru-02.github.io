@@ -61,6 +61,34 @@
 <script setup lang="ts">
 const work = [
   {
+    role: 'Software Engineer',
+    company: 'Majan Lamps LLC',
+    location: 'Dubai, UAE',
+    period: 'Jun 2025 – Dec 2025',
+    bullets: [
+      'Designed and developed an internal auditing and sales data management platform for 10–15 employees, replacing daily pen-and-paper sales tracking.',
+      'Digitized business workflows using AWS and ReactJS, significantly reducing manual rechecking and data inconsistencies.',
+      'Implemented authentication and identity management to enforce controlled access to sensitive sales and billing data.',
+      'Conducted security and resilience audits of physical document storage, billing systems, and hard-drive-based backup processes.',
+      'Tested backup and recovery workflows, validating a one-working-day RPO and RTO for scanned documents and billing records.',
+      'Contributed to maintaining approximately 99% service availability using AWS-managed infrastructure and best practices.',
+    ],
+  },
+  {
+    role: 'IT Solutions Specialist',
+    company: 'Al Sabahia Al Arabieu International Trading LLC',
+    location: 'Muscat, Oman',
+    period: 'Jan 2025 – May 2025',
+    bullets: [
+      'Established end-to-end IT operations for a 20-employee trading company, transitioning from fully paper-based workflows to secure digital systems.',
+      'Designed automation and logging workflows that reduced manual reconciliation effort by approximately 65–70%, enabling one staff member to replace a three-person weekend process.',
+      'Built an internal cloud-based sales and document logging system with role-based IAM, supporting approximately 100 structured business records.',
+      'Managed and secured up to 1 TB of internal company data, with weekly sales data under 1 GB.',
+      'Implemented the company’s first backup and disaster recovery strategy using a hybrid cloud model following the 3-2-1 backup rule, defining a one-working-day RPO and RTO.',
+      'Deployed systems on AWS, maintaining 99.99% availability for business-critical operations.',
+    ],
+  },
+  {
     role: 'Google Summer of Code Mentee',
     company: 'GNU Radio',
     location: 'Remote',

@@ -89,7 +89,16 @@ const projects = [
       'A 70 page system design and governance report of a traffic offense record system presented to a panel of KPMG analysts with a team.',
     demo: null,
     repo: 'https://github.com/haru-02/cybersecurity-projects/blob/main/SystemsPortfolio.pdf',
-    image: '/payment.png',
+    image: '/governance.png',
+  },
+  {
+    name: 'Penetration Test Report',
+    stack: 'Nmap, Wireshark, Metasploit',
+    description:
+      'Conducted a penetration test against a live AWS server, identifying multiple vulnerabilities using Nmap, Wireshark and Metasploit.     • Produced a severity-ranked report with remediation recommendations to strengthen the security posture.',
+    demo: null,
+    repo: 'https://github.com/haru-02/cybersecurity-projects/blob/main/pentest-report.pdf',
+    image: '/pentest.png',
   },
 ]
 

@@ -61,31 +61,29 @@
 <script setup lang="ts">
 const work = [
   {
-    role: 'Software Engineer',
-    company: 'Majan Lamps LLC',
-    location: 'Dubai, UAE',
-    period: 'Jun 2025 – Dec 2025',
+    role: 'Founding Security Engineer',
+    company: 'Jaunt',
+    location: 'remote',
+    period: 'Feb 2026 – Present',
     bullets: [
-      'Designed and developed an internal auditing and sales data management platform for 10–15 employees, replacing daily pen-and-paper sales tracking.',
-      'Digitized business workflows using AWS and ReactJS, significantly reducing manual rechecking and data inconsistencies.',
-      'Implemented authentication and identity management to enforce controlled access to sensitive sales and billing data.',
-      'Conducted security and resilience audits of physical document storage, billing systems, and hard-drive-based backup processes.',
-      'Tested backup and recovery workflows, validating a one-working-day RPO and RTO for scanned documents and billing records.',
-      'Contributed to maintaining approximately 99% service availability using AWS-managed infrastructure and best practices.',
+      'Authored detection rules in Microsoft Sentinel to identify common network-based attack techniques.',
+      'Triaged phishing emails reported via Microsoft Defender and led incident response for Netlogon privilege-escalation attempts and Pass-the-Ticket attacks.',
+      'Refined and enriched content and image datasets through LLM-based auditing against a grounded source of truth, raising production readiness from 40% to 90%, and designed guardrails to prevent competitors extracting proprietary sources.',
+      'Took full ownership of architecture and delivery for a RAG pipeline that builds a knowledge graph to improve personalised recommendations from user search and interest history.',
+      'Built Model Context Protocol (MCP) integrations connecting internal services and APIs to Claude Code, streamlining agent-based tooling.',
     ],
   },
   {
-    role: 'IT Solutions Specialist',
-    company: 'Al Sabahia Al Arabieu International Trading LLC',
+    role: 'SOC Analyst L1',
+    company: 'Al Sabahia Trading and Business LLC',
     location: 'Muscat, Oman',
-    period: 'Jan 2025 – May 2025',
+    period: 'Jan 2025 – Feb 2026',
     bullets: [
-      'Established end-to-end IT operations for a 20-employee trading company, transitioning from fully paper-based workflows to secure digital systems.',
-      'Designed automation and logging workflows that reduced manual reconciliation effort by approximately 65–70%, enabling one staff member to replace a three-person weekend process.',
-      'Built an internal cloud-based sales and document logging system with role-based IAM, supporting approximately 100 structured business records.',
-      'Managed and secured up to 1 TB of internal company data, with weekly sales data under 1 GB.',
-      'Implemented the company’s first backup and disaster recovery strategy using a hybrid cloud model following the 3-2-1 backup rule, defining a one-working-day RPO and RTO.',
-      'Deployed systems on AWS, maintaining 99.99% availability for business-critical operations.',
+      'Established end-to-end IT operations for a 20-employee trading company, migrating fully paper-based workflows to secure digital systems.',
+      'Designed automation and logging workflows that reduced manual reconciliation effort by 65–70%, enabling one analyst to replace a three-person weekend process.',
+      'Secured and managed up to 1TB of company data, including weekly sales datasets of up to 1GB.',
+      'Administered permissions via Azure Active Directory; investigated suspicious activity such as impossible-travel alerts using Microsoft Defender, performing root-cause analysis on internal incidents.',
+      'Implemented the company\'s first backup and disaster recovery strategy on a hybrid-cloud model following the 3-2-1 backup rule, defining a one-working-day RPO/RTO.',
     ],
   },
   {
@@ -113,34 +111,29 @@ const work = [
 ]
 
 const skills = {
-  concepts: [
-    'Interpreters',
-    'SAT Solving',
-    'Functional Programming',
-    'Cybersecurity',
-    'Web Development',
-    'Operating Systems',
-    'Machine Learning',
-    'AI',
-    'Probability & Statistics',
-    'Agile Methodologies',
-    'Software Testing',
-    'Software engineering',
-    'System Design',
+  'Security Operations': [
+    'SIEM detection engineering',
+    'threat hunting & triage',
+    'phishing analysis',
+    'incident response',
+    'VAPT',
+    'Active Directory security',
+    'backup & disaster recovery (3-2-1)',
+  ],
+  'Tools & Platforms': [
+    'Microsoft Defender',
+    'Microsoft Sentinel',
+    'Azure Active Directory',
+    'Entra ID PIM',
+    'Nmap',
+    'Wireshark',
+    'Metasploit',
+    'tcpdump',
+    'KQL',
   ],
   languages: ['C/C++', 'Python', 'Java', 'OCaml', 'SQL', 'TypeScript'],
-  tools: [
-    'Git',
-    'Linux',
-    'Docker',
-    'Dune',
-    'Alcotest',
-    'Spring Boot',
-    'ReactJS',
-    'VueJS',
-    'Cloudflare Workers',
-    'Cloudflare Pages',
-  ],
+  'Applied Concepts': ['Formal verification', 'applied cryptography', 'AI/LLM guardrails', 'distributed systems', 'machine learning'],
+  'Operating Systems': ['Linux (arch/debian)', 'Windows'],
 }
 
 const education = [
@@ -163,6 +156,7 @@ const education = [
 ]
 
 const certifications = [
+  { name: 'Microsoft Certified: Security Operations Analyst Associate (SC-200)', issuer: 'Microsoft', year: 'AUG 2026'}
   { name: 'CompTIA Security+', issuer: 'CompTIA', year: 'Mar 2025' },
   { name: 'Certified in Cybersecurity (CC)', issuer: 'ISC2', year: 'Mar 2024' },
 ]

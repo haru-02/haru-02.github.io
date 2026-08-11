@@ -19,9 +19,14 @@
     <div class="section">
       <h2>Skills</h2>
       <div class="card">
-        <h3>Core Concepts</h3>
+        <h3>Security Operations</h3>
         <div class="pill-row">
-          <span class="pill" v-for="c in skills.concepts" :key="c">{{ c }}</span>
+          <span class="pill" v-for="s in skills['Security Operations']" :key="s">{{ s }}</span>
+        </div>
+
+        <h3>Tools & Platforms</h3>
+        <div class="pill-row">
+          <span class="pill" v-for="t in skills['Tools & Platforms']" :key="t">{{ t }}</span>
         </div>
 
         <h3>Programming Languages</h3>
@@ -29,9 +34,14 @@
           <span class="pill" v-for="l in skills.languages" :key="l">{{ l }}</span>
         </div>
 
-        <h3>Tools & Frameworks</h3>
+        <h3>Applied Concepts</h3>
         <div class="pill-row">
-          <span class="pill" v-for="t in skills.tools" :key="t">{{ t }}</span>
+          <span class="pill" v-for="a in skills['Applied Concepts']" :key="a">{{ a }}</span>
+        </div>
+
+        <h3>Operating Systems</h3>
+        <div class="pill-row">
+          <span class="pill" v-for="o in skills['Operating Systems']" :key="o">{{ o }}</span>
         </div>
       </div>
     </div>
@@ -156,7 +166,7 @@ const education = [
 ]
 
 const certifications = [
-  { name: 'Microsoft Certified: Security Operations Analyst Associate (SC-200)', issuer: 'Microsoft', year: 'AUG 2026'}
+  { name: 'Microsoft Certified: Security Operations Analyst Associate (SC-200)', issuer: 'Microsoft', year: 'AUG 2026' },
   { name: 'CompTIA Security+', issuer: 'CompTIA', year: 'Mar 2025' },
   { name: 'Certified in Cybersecurity (CC)', issuer: 'ISC2', year: 'Mar 2024' },
 ]

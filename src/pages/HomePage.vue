@@ -52,16 +52,12 @@ onMounted(() => {
       </div>
     </div>
     <p class="intro-paragraph">
-      I am Rahul Balaji, a software engineer and cybersecurity enthusiast with a strong foundation
-      in advanced computer science. I hold a Master’s degree from the University of Manchester, and
-      a Bachelor’s from NIT Rourkela. I'm a Security engineer who turns raw alerts into decisive
-      action, backed by hands-on SOC experience across threat detection, incident response and
-      secure system design. Skilled in SIEM detection engineering and threat hunting across
-      Microsoft Defender and Sentinel, with a strong academic grounding in formal verification,
-      applied cryptography and AI system guardrails. Conference speaker (BSides Leeds) and technical
-      author covering cybersecurity, authentication and software engineering. This website serves as
-      a personal portfolio to showcase my experience and projects over the years, hope you find this
-      useful!
+      Security engineer who turns raw alerts into decisive action — MSc in Computer Security from
+      the University of Manchester, backed by hands-on SOC experience across threat detection,
+      incident response and secure system design. Skilled in SIEM detection engineering and threat
+      hunting across Microsoft Defender and Sentinel, with a strong academic grounding in formal
+      verification, applied cryptography and AI system guardrails. Conference speaker (BSides Leeds)
+      and technical author covering cybersecurity, authentication and software engineering.
     </p>
   </div>
 </template>

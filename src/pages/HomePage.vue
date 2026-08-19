@@ -53,12 +53,12 @@ onMounted(() => {
       </div>
     </div>
     <p class="intro-paragraph">
-      Sofware/Security engineer who turns raw alerts into decisive action — MSc in Computer Security
-      from the University of Manchester, backed by hands-on SOC experience across threat detection,
-      incident response and secure system design. Skilled in SIEM detection engineering and threat
-      hunting across Microsoft Defender and Sentinel, with a strong academic grounding in formal
-      verification, applied cryptography and AI system guardrails. Conference speaker (BSides Leeds)
-      and technical author covering cybersecurity, authentication and software engineering.
+      Software and Security Engineer with an MSc in Computer Security from the University of
+      Manchester, combining hands-on experience building software and cloud systems with expertise
+      in security engineering. Experienced across full-stack development, Python, TypeScript, AWS,
+      Linux, threat detection, incident response, secure system design, and formal verification.
+      Open-source contributor, technical writer, and conference speaker with a particular interest
+      in building secure and reliable software.
     </p>
   </div>
 </template>

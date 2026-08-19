@@ -56,7 +56,7 @@ const projects = [
     image: '/desert_monkey.png',
   },
   {
-    name: 'ESBMC Python Frontend',
+    name: 'ESBMC Python Frontend & static analysis',
     stack: 'C++ • Python • SMT Solvers • Static Analysis',
     description:
       'Enhanced ESBMC’s Python backend by converting Python code to SMT formulas for vulnerability detection. Added support for type annotations, range loops, and mutation tests.',

@@ -122,6 +122,9 @@ const work = [
 ]
 
 const skills = {
+  languages: ['C/C++', 'Python', 'TypeScript', 'Java', 'OCaml', 'SQL'],
+  'Web & Backend': ['React', 'Spring Boot', 'Hono', 'REST APIs', 'OpenAPI', 'Cloudflare Workers'],
+  'Cloud &  Infrastrcuture': ['AWS', 'Lambda', 'SQS', 'Docker', 'Linux', 'Cloudflare'],
   'Security Operations': [
     'SIEM detection engineering',
     'threat hunting & triage',
@@ -142,7 +145,6 @@ const skills = {
     'tcpdump',
     'KQL',
   ],
-  languages: ['C/C++', 'Python', 'Java', 'OCaml', 'SQL', 'TypeScript'],
   'Applied Concepts': [
     'Formal verification',
     'applied cryptography',
@@ -160,7 +162,7 @@ const education = [
     location: 'Manchester, UK',
     year: 'Dec 2024',
     details:
-      'Graduated with Merit (2:1). Focused on cybersecurity research, systems, and formal verification.',
+      'Graduated with Merit (2:1).Focused on computer security, systems, formal verification, and secure software engineering.',
   },
   {
     degree: 'B.Tech in Computer Science',

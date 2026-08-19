@@ -19,30 +19,12 @@
     <div class="section">
       <h2>Skills</h2>
       <div class="card">
-        <h3>Security Operations</h3>
-        <div class="pill-row">
-          <span class="pill" v-for="s in skills['Security Operations']" :key="s">{{ s }}</span>
-        </div>
-
-        <h3>Tools & Platforms</h3>
-        <div class="pill-row">
-          <span class="pill" v-for="t in skills['Tools & Platforms']" :key="t">{{ t }}</span>
-        </div>
-
-        <h3>Programming Languages</h3>
-        <div class="pill-row">
-          <span class="pill" v-for="l in skills.languages" :key="l">{{ l }}</span>
-        </div>
-
-        <h3>Applied Concepts</h3>
-        <div class="pill-row">
-          <span class="pill" v-for="a in skills['Applied Concepts']" :key="a">{{ a }}</span>
-        </div>
-
-        <h3>Operating Systems</h3>
-        <div class="pill-row">
-          <span class="pill" v-for="o in skills['Operating Systems']" :key="o">{{ o }}</span>
-        </div>
+        <template v-for="(items, category) in skills" :key="category">
+          <h3>{{ category }}</h3>
+          <div class="pill-row">
+            <span class="pill" v-for="s in items" :key="s">{{ s }}</span>
+          </div>
+        </template>
       </div>
     </div>
 
@@ -122,9 +104,9 @@ const work = [
 ]
 
 const skills = {
-  languages: ['C/C++', 'Python', 'TypeScript', 'Java', 'OCaml', 'SQL'],
+  'Programming Languages': ['C/C++', 'Python', 'TypeScript', 'Java', 'OCaml', 'SQL'],
   'Web & Backend': ['React', 'Spring Boot', 'Hono', 'REST APIs', 'OpenAPI', 'Cloudflare Workers'],
-  'Cloud &  Infrastrcuture': ['AWS', 'Lambda', 'SQS', 'Docker', 'Linux', 'Cloudflare'],
+  'Cloud & Infrastructure': ['AWS', 'Lambda', 'SQS', 'Docker', 'Linux', 'Cloudflare'],
   'Security Operations': [
     'SIEM detection engineering',
     'threat hunting & triage',

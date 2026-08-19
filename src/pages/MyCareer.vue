@@ -71,16 +71,17 @@
 <script setup lang="ts">
 const work = [
   {
-    role: 'Founding Security Engineer',
+    role: 'Founding Software Engineer (Security Engineering)',
     company: 'Jaunt',
     location: 'remote',
     period: 'Feb 2026 – Present',
     bullets: [
-      'Authored detection rules in Microsoft Sentinel to identify common network-based attack techniques.',
-      'Triaged phishing emails reported via Microsoft Defender and led incident response for Netlogon privilege-escalation attempts and Pass-the-Ticket attacks.',
+      'Designed and implemented an AWS-based data ingestion pipeline using AWS Lambda and SQS, enabling scheduled processing of data at regular intervals.',
       'Refined and enriched content and image datasets through LLM-based auditing against a grounded source of truth, raising production readiness from 40% to 90%, and designed guardrails to prevent competitors extracting proprietary sources.',
       'Took full ownership of architecture and delivery for a RAG pipeline that builds a knowledge graph to improve personalised recommendations from user search and interest history.',
       'Built Model Context Protocol (MCP) integrations connecting internal services and APIs to Claude Code, streamlining agent-based tooling.',
+      'Authored detection rules in Microsoft Sentinel to identify common network-based attack techniques.',
+      'Triaged phishing emails reported via Microsoft Defender and led incident response for Netlogon privilege-escalation attempts and Pass-the-Ticket attacks.',
     ],
   },
   {
@@ -93,7 +94,7 @@ const work = [
       'Designed automation and logging workflows that reduced manual reconciliation effort by 65–70%, enabling one analyst to replace a three-person weekend process.',
       'Secured and managed up to 1TB of company data, including weekly sales datasets of up to 1GB.',
       'Administered permissions via Azure Active Directory; investigated suspicious activity such as impossible-travel alerts using Microsoft Defender, performing root-cause analysis on internal incidents.',
-      'Implemented the company\'s first backup and disaster recovery strategy on a hybrid-cloud model following the 3-2-1 backup rule, defining a one-working-day RPO/RTO.',
+      "Implemented the company's first backup and disaster recovery strategy on a hybrid-cloud model following the 3-2-1 backup rule, defining a one-working-day RPO/RTO.",
     ],
   },
   {
@@ -142,7 +143,13 @@ const skills = {
     'KQL',
   ],
   languages: ['C/C++', 'Python', 'Java', 'OCaml', 'SQL', 'TypeScript'],
-  'Applied Concepts': ['Formal verification', 'applied cryptography', 'AI/LLM guardrails', 'distributed systems', 'machine learning'],
+  'Applied Concepts': [
+    'Formal verification',
+    'applied cryptography',
+    'AI/LLM guardrails',
+    'distributed systems',
+    'machine learning',
+  ],
   'Operating Systems': ['Linux (arch/debian)', 'Windows'],
 }
 
@@ -166,7 +173,11 @@ const education = [
 ]
 
 const certifications = [
-  { name: 'Microsoft Certified: Security Operations Analyst Associate (SC-200)', issuer: 'Microsoft', year: 'AUG 2026' },
+  {
+    name: 'Microsoft Certified: Security Operations Analyst Associate (SC-200)',
+    issuer: 'Microsoft',
+    year: 'AUG 2026',
+  },
   { name: 'CompTIA Security+', issuer: 'CompTIA', year: 'Mar 2025' },
   { name: 'Certified in Cybersecurity (CC)', issuer: 'ISC2', year: 'Mar 2024' },
 ]

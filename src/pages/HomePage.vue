@@ -2,6 +2,7 @@
 import { onMounted } from 'vue'
 
 const roles = [
+  'Software Engineer',
   'Security Engineer',
   'SOC & Detection Engineering',
   'Open-Source contributor',
@@ -52,8 +53,8 @@ onMounted(() => {
       </div>
     </div>
     <p class="intro-paragraph">
-      Security engineer who turns raw alerts into decisive action — MSc in Computer Security from
-      the University of Manchester, backed by hands-on SOC experience across threat detection,
+      Sofware/Security engineer who turns raw alerts into decisive action — MSc in Computer Security
+      from the University of Manchester, backed by hands-on SOC experience across threat detection,
       incident response and secure system design. Skilled in SIEM detection engineering and threat
       hunting across Microsoft Defender and Sentinel, with a strong academic grounding in formal
       verification, applied cryptography and AI system guardrails. Conference speaker (BSides Leeds)

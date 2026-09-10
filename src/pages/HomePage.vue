@@ -4,7 +4,6 @@ import { onMounted } from 'vue'
 const roles = [
   'Software Engineer',
   'Security Engineer',
-  'SOC & Detection Engineering',
   'Open-Source contributor',
   'Tech writer',
   'Reader',
@@ -53,12 +52,12 @@ onMounted(() => {
       </div>
     </div>
     <p class="intro-paragraph">
-      Software and Security Engineer with an MSc in Computer Security from the University of
-      Manchester, combining hands-on experience building software and cloud systems with expertise
-      in security engineering. Experienced across full-stack development, Python, TypeScript, AWS,
-      Linux, threat detection, incident response, secure system design, and formal verification.
-      Open-source contributor, technical writer, and conference speaker with a particular interest
-      in building secure and reliable software.
+      Software Engineer with experience building cloud services, developer tools, AI-assisted
+      workflows, and full-stack applications from design through production. Experienced in
+      TypeScript, Python, AWS, Cloudflare Workers, APIs, Docker, Linux, and automated engineering
+      workflows, with hands-on work in MCP integrations, AI agents, testing, debugging, and data
+      validation. Proven track record of owning ambiguous problems, automating engineering
+      workflows, and building reliable systems with strong correctness and security guardrails.
     </p>
   </div>
 </template>
